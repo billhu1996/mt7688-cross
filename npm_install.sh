@@ -2,7 +2,7 @@
 . $(pwd)/env.sh
 
 export npm_config_arch=mips
-export npm_config_nodedir=${BASEDIR}/node-v0.12.7-mips
+export npm_config_nodedir=${BASEDIR}/Entware/build_dir/target-mipsel_mips32r2_glibc-2.27/node-v8.10.0/
 echo $npm_config_nodedir
 
 if [ ! -d $(pwd)/node_modules_mips ]; then
@@ -42,3 +42,4 @@ else
     echo "Building node module for MT7688(mipsel) finished!"
     echo " "
 fi
+
