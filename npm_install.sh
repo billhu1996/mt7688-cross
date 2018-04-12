@@ -36,7 +36,7 @@ else
     tar -cvf "${module_name}"-"${version}"_mips.tar.gz "${module_name}"/ > /dev/null
 
     mv "${module_name}"-"${version}"_mips.tar.gz ${BASEDIR}/node_modules_mips
-    rm -rf *
+    # rm -rf *
 
     echo " "
     echo "Building node module for MT7688(mipsel) finished!"
